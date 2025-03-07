@@ -4,7 +4,7 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: 'welcome to KS-artistry world '
+      text: 'WELCOME TO KS-ARTISTRY WORLD '
       color: text-dark
       type: TitleBlock
     subtitle: Subtitle goes here
