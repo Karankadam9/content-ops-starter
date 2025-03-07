@@ -91,7 +91,7 @@ sections:
           - Feature five
         image:
           type: ImageBlock
-          url: /images/abstract-feature3.svg
+          url: /images/WhatsApp Image 2025-03-07 at 5.59.13 PM.jpeg
           altText: Pricing plan 3
         actions:
           - type: Button
