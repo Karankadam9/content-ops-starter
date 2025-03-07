@@ -58,7 +58,7 @@
         "weight": "normal",
         "case": "none",
         "letterSpacing": "tighter",
-        "borderRadius": "DEFAULT",
+        "borderRadius": "none",
         "shadow": "none",
         "horizontalPadding": 4,
         "verticalPadding": 25,
