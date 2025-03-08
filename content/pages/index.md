@@ -598,7 +598,7 @@ sections:
     type: GenericSection
 seo:
   metaTitle: ks-artistry.netlify.app
-  metaDescription: This demo site is built with Netlify Create.
+  metaDescription: home decor site
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
