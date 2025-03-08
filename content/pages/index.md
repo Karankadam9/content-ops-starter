@@ -11,7 +11,7 @@ sections:
     text: "Discover handcrafted Mandala art, stunning canvas paintings, and unique home decor pieces made with passion. Each piece is designed to bring beauty and positivity to your space.\n\nFind the perfect artwork for your home or a thoughtful gift—shop now and bring art into your life! \U0001F6CD️\n"
     actions: []
     media:
-      url: /images/Screenshot 2025-03-05 121010.png
+      url: /images/WhatsApp Image 2025-03-07 at 5.59.12 PM.jpeg
       altText: Unblock your team boost your time to production preview
       elementId: ''
       type: ImageBlock
