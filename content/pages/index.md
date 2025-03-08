@@ -10,15 +10,6 @@ sections:
     subtitle: Where Creativity Meets Soul!
     text: "Discover handcrafted Mandala art, stunning canvas paintings, and unique home decor pieces made with passion. Each piece is designed to bring beauty and positivity to your space.\n\nFind the perfect artwork for your home or a thoughtful gift—shop now and bring art into your life! \U0001F6CD️\n"
     actions:
-      - label: Get started
-        altText: ''
-        url: /
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        elementId: ''
-        type: Button
       - label: See Tutorials
         altText: ''
         url: /
