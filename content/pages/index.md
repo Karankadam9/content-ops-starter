@@ -7,40 +7,22 @@ sections:
       text: ''
       color: text-dark
       type: TitleBlock
-    subtitle: Subtitle goes here
-    text: >+
-      ###### A Netlify Create website is a git repo that you own. Every code
-      commit is instantly reflected in the visual editor and since every visual
-      edit is a git commit, git workflows and collaboration just work.
-
-    actions:
-      - label: Get started
-        altText: ''
-        url: /
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        elementId: ''
-        type: Button
-      - label: See Tutorials
-        altText: ''
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
-        type: Link
+    subtitle: Where Creativity Meets Soul!
+    text: "Discover handcrafted Mandala art, stunning canvas paintings, and unique home decor pieces made with passion. Each piece is designed to bring beauty and positivity to your space.\n\nFind the perfect artwork for your home or a thoughtful gift—shop now and bring art into your life! \U0001F6CD️\n"
+    actions: []
     media:
-      url: /images/Screenshot 2025-03-05 121010.png
+      url: /images/WhatsApp Image 2025-03-07 at 5.59.12 PM.jpeg
       altText: Unblock your team boost your time to production preview
       elementId: ''
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: Welcome to KS-Artistry
       color: text-primary
       type: Badge
+      styles:
+        self:
+          fontStyle: italic
+          textAlign: left
     elementId: ''
     colors: bg-light-fg-dark
     styles:
@@ -52,25 +34,79 @@ sections:
           - pl-16
           - pb-16
           - pr-16
-  - posts:
-      - content/pages/blog/case-study-1.md
-      - content/pages/blog/case-study-2.md
-      - content/pages/blog/case-study-3.md
-    showThumbnail: true
-    showDate: true
-    showAuthor: true
+  - type: FeaturedItemsSection
+    title:
+      type: TitleBlock
+      text: Items on sale
+      color: text-dark
+      styles:
+        self:
+          textAlign: left
+    items:
+      - type: FeaturedItem
+        title: Faux Fur Throw
+        subtitle: $ 88 – $ 176
+        image:
+          type: ImageBlock
+          url: /images/WhatsApp Image 2025-03-08 at 5.32.50 PM.jpeg
+          altText: Faux Fur Throw
+          elementId: ''
+          styles:
+            self:
+              borderRadius: medium
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-0
+              - pl-0
+              - pb-0
+              - pr-0
+            textAlign: left
+            borderRadius: none
+            flexDirection: col
+            justifyContent: center
+      - type: FeaturedItem
+        title: Cotton Knit Throws
+        subtitle: $ 44.99 – $ 90
+        image:
+          type: ImageBlock
+          url: /images/WhatsApp Image 2025-03-08 at 5.32.51 PM.jpeg
+          altText: Cotton Knit Throws
+          elementId: ''
+          styles:
+            self:
+              borderRadius: medium
+        actions: []
+        colors: bg-light-fg-dark
+      - type: FeaturedItem
+        title: Chunky Cotton Knit Throw
+        subtitle: $117
+        image:
+          type: ImageBlock
+          url: /images/WhatsApp Image 2025-03-08 at 5.32.51 PM (1).jpeg
+          altText: Chunky Cotton Knit Throw
+          elementId: ''
+          styles:
+            self:
+              borderRadius: medium
+        actions: []
+        colors: bg-light-fg-dark
+    actions: []
+    elementId: ''
     variant: three-col-grid
     colors: bg-light-fg-dark
     styles:
       self:
         padding:
           - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
-        justifyContent: center
-    type: FeaturedPostsSection
-    hoverEffect: move-up
+          - pl-8
+          - pb-8
+          - pr-8
+        justifyContent: flex-start
+      subtitle:
+        textAlign: center
   - title: Divider
     colors: bg-light-fg-dark
     styles:
@@ -500,6 +536,78 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
+      - type: FeaturedItem
+        title: Feature Item One
+        tagline: This is the tagline
+        subtitle: This is the item subtitle
+        text: |
+          Follow the tutorial to build your first Netlify Create site.
+        image:
+          type: ImageBlock
+          url: /images/abstract-feature1.svg
+          altText: Placeholder text
+          styles:
+            self:
+              borderRadius: x-large
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: x-large
+            flexDirection: col
+      - type: FeaturedItem
+        title: Feature Item One
+        tagline: This is the tagline
+        subtitle: This is the item subtitle
+        text: |
+          Follow the tutorial to build your first Netlify Create site.
+        image:
+          type: ImageBlock
+          url: /images/abstract-feature1.svg
+          altText: Placeholder text
+          styles:
+            self:
+              borderRadius: x-large
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: x-large
+            flexDirection: col
+      - type: FeaturedItem
+        title: Feature Item One
+        tagline: This is the tagline
+        subtitle: This is the item subtitle
+        text: |
+          Follow the tutorial to build your first Netlify Create site.
+        image:
+          type: ImageBlock
+          url: /images/abstract-feature1.svg
+          altText: Placeholder text
+          styles:
+            self:
+              borderRadius: x-large
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: x-large
+            flexDirection: col
       - title: Feature Item Three
         tagline: This is the tagline
         subtitle: This is the item subtitle
@@ -601,5 +709,6 @@ seo:
   metaDescription: home decor site
   socialImage: /images/main-hero.jpg
   type: Seo
+  addTitleSuffix: true
 type: PageLayout
 ---
