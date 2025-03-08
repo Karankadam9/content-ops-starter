@@ -8,7 +8,7 @@ sections:
       color: text-dark
       type: TitleBlock
     subtitle: Where Creativity Meets Soul!
-    text: "##### Step into a world of art that speaks to your heart! At KS-Artistry, we bring you an exquisite collection of Mandala art, stunning canvas paintings, and charming home decor pieces, all handcrafted with passion and precision.\n\n##### Each creation is designed to add beauty, serenity, and a touch of uniqueness to your space. Whether you're looking for a mesmerizing centerpiece or a thoughtful gift, you'll find something special here.\n\n##### Explore, get inspired, and let art elevate your surroundings! \U0001F3A8✨\n\n"
+    text: "Discover handcrafted Mandala art, stunning canvas paintings, and unique home decor pieces made with passion. Each piece is designed to bring beauty and positivity to your space.\n\nFind the perfect artwork for your home or a thoughtful gift—shop now and bring art into your life! \U0001F6CD️\n"
     actions:
       - label: Get started
         altText: ''
