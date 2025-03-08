@@ -601,5 +601,6 @@ seo:
   metaDescription: home decor site
   socialImage: /images/main-hero.jpg
   type: Seo
+  addTitleSuffix: true
 type: PageLayout
 ---
